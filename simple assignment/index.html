@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .form{
+                border: 2px solid rgb(164, 164, 164);
+                width: 450px;
+                border-radius: 10px;
+                margin: 50px;
+                padding-left: 15px;
+                /* display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center; */
+            }
+
+            .label{
+                padding-left: 20px;
+                display: block;
+            }
+
+            #name{
+                width: 250px;
+                margin: 20px 0px 20px 0px;
+                padding: 5px;
+            }
+
+            #email{
+                width: 250px;
+                margin-bottom: 20px;
+                padding: 5px;
+            }
+
+            #message{
+                width: 250px;
+                height: 70px;
+                margin-bottom: 20px;
+                padding: 5px;
+            }
+
+            .button{
+                width: 250px;
+                margin: 20px 0px 20px 20px;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <form class="form">
+            <div>
+                <label class="label">
+                    Name:
+                    <input type="text" id="name" />
+                </label>
+            </div>
+            
+            <div>
+                <label class="label">
+                    E-mail:
+                    <input type="email" id="email"/> 
+                </label>
+            </div>
+            
+            <div>
+                <label class="label">
+                    Message:
+                    <textarea id="message"></textarea>
+                </label>
+            </div>
+           
+            <div class="button">
+                <button type="submit">Send your message</button>
+            </div>
+        </form>
+
+    </body>
+</html>
