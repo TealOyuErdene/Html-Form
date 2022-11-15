@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .form{
+                border: 1px solid gray;
+                width: 350px;
+                margin: 100px;
+                padding: 25px 25px 25px 50px;
+            }
+
+            .label{
+                display: block;
+                margin-bottom: 20px;
+            }
+
+            span{
+                display: inline-block;
+                text-align: left;
+                width: 65px;
+            }
+
+            .name, .email{
+                width: 250px;
+                padding: 5px;
+            }
+
+            .message{
+                width: 250px;
+                height: 70px;
+                padding: 5px;
+            } 
+
+            .button{
+                width: 250px;
+            }
+        </style>
+    </head>
+    <body>
+        <form class="form">
+            <div>
+                <label class="label">
+                    <span>Name:</span>
+                    <input type="text" class="name" />
+                </label>
+            </div>
+            
+            <div>
+                <label class="label">
+                    <span>E-mail:</span>
+                    <input type="email" class="email"/> 
+                </label>
+            </div>
+            
+            <div>
+                <label class="label">
+                    <span>Message:</span>
+                    <textarea class="message"></textarea>
+                </label>
+            </div>
+           
+            <div class="button">
+                <span></span>
+                <button type="submit">Send your message</button>
+            </div>
+        </form>
+    </body>
+</html>
