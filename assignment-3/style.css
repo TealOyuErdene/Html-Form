@@ -1,0 +1,104 @@
+body{
+    background-color:  rgba(137, 176, 223);
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.card-1{
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.card-title-1{
+    color: rgb(38, 84, 157);
+    font-size: 30px;
+}
+
+.card-1 input{
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(128, 127, 131, 0.5);
+}
+
+.card-1 input::placeholder{
+    color:rgb(128, 127, 131);
+    font-size: 18px;
+}
+
+.card-1 select{
+    font-size: 18px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(128, 127, 131, 0.5);
+}
+
+.card-2{
+    background-color: rgb(58, 58, 193);
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.card-title-2{
+    color: white;
+    font-size: 30px;
+}
+
+.card-2 input{
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.card-2 input::placeholder{
+    color:white;
+    font-size: 18px;
+}
+
+.card-2 select{
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    color: white;
+    font-size: 18px;
+}
+
+.card-2 select label{
+    color: white;
+}
+
+.btn-primary{
+    font-size: 17px;
+    padding: 12px;
+    border-radius: 25px;
+    width: 150px;
+    cursor: pointer;
+}
+
+
+
+
