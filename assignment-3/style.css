@@ -92,6 +92,10 @@ body{
 }
 
 .btn-primary{
+    border-right-color:black ;
+    border-bottom-color:black ;
+    border-left-color:gray ;
+    border-top-color:gray ;
     font-size: 17px;
     padding: 12px;
     border-radius: 25px;
